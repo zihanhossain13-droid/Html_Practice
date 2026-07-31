@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<style>
+  .box{
+    width:100px;
+    height:100px;
+    background-color:purple;
+    animation:move 3s infinite alternate;
+    animation-timing-function:linear;
+  }
+  @keyframes move{
+    from{
+      transform:translateX(0)
+    }
+    to{
+      transform:translateX(300px)
+    }
+  }
+</style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
